@@ -1,8 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Child from '@/components/test/Child';
 
-function App() {
+function App(): any {
   return (
     <div className="App">
       <header className="App-header">
@@ -18,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <Child />
       </header>
     </div>
   );
