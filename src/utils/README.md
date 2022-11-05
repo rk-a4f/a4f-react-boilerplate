@@ -2,7 +2,7 @@
 
 ## 파일 네이밍
 
-- xxxUtil.ts
+- [xxx].utils.ts
 - xxx
 
   - 기능 단위
