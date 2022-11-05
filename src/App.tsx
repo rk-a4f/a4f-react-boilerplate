@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Child from '@/components/test/Child';
+import Parent from '@/components/parent/Parent';
 
 function App(): any {
   return (
@@ -19,7 +19,7 @@ function App(): any {
         >
           Learn React
         </a>
-        <Child />
+        <Parent title="제목" onTitleClick={() => console.log('titleClicked')} />
       </header>
     </div>
   );
