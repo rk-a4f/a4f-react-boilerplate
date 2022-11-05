@@ -2,7 +2,7 @@
 
 ## 파일 네이밍
 
-- xxx.constants.ts
+- [xxx].constants.ts
 - xxx 기준은
   - router 경로 별 폴더 구성
 
