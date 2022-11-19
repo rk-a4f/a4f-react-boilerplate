@@ -4,6 +4,9 @@
   "private": true,
   "author": "rk-a4f <rkdev.a4f@gmail.com>",
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.10.14",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
