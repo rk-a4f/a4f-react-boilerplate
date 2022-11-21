@@ -5,7 +5,7 @@ import RecoilInput from '@/components/recoil-test/RecoilInput';
 import RecoilValue from '@/components/recoil-test/RecoilValue';
 // import Parent from '@/components/parent/Parent';
 
-function App(): any {
+const App: React.FC = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -28,6 +28,6 @@ function App(): any {
       </header>
     </div>
   );
-}
+};
 
 export default App;
