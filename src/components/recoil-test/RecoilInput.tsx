@@ -5,7 +5,7 @@ import { textState } from '@/store/sample';
 const RecoilInput: React.FC = () => {
   const [text, setText] = useRecoilState(textState);
 
-  const onChange = (event: any) => {
+  const onChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setText(event.target.value);
   };
 
