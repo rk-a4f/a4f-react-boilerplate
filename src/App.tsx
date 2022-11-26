@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import RecoilInput from '@/components/recoil-test/RecoilInput';
 import RecoilValue from '@/components/recoil-test/RecoilValue';
+import AxiosTest from '@/components/axios-test/AxiosTest';
 // import Parent from '@/components/parent/Parent';
 
 const App: React.FC = () => {
@@ -25,6 +26,9 @@ const App: React.FC = () => {
         <p>리코일 테스트!!!</p>
         <RecoilInput />
         <RecoilValue />
+        <br />
+        <p>axios 테스트!!!</p>
+        <AxiosTest />
       </header>
     </div>
   );
