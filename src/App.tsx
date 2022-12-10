@@ -7,6 +7,7 @@ import AxiosTest from '@/components/axios-test/AxiosTest';
 // import Parent from '@/components/parent/Parent';
 
 const App: React.FC = () => {
+  console.log('REACT_APP_ENVIRONMENT', process.env, typeof process);
   return (
     <div className="App">
       <header className="App-header">
@@ -29,6 +30,10 @@ const App: React.FC = () => {
         <br />
         <p>axios 테스트!!!</p>
         <AxiosTest />
+        <p>env 테스트!!!</p>
+        <p>
+          {process.env.NODE_ENV} , {process.env.REACT_APP_ENVIRONMENT}
+        </p>
       </header>
     </div>
   );
