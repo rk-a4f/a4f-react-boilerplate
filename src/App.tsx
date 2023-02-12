@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import logo from './logo.svg';
 import './App.css';
 import RecoilInput from '@/components/recoil-test/RecoilInput';
@@ -8,8 +9,10 @@ import AxiosTest from '@/components/axios-test/AxiosTest';
 
 const App: React.FC = () => {
   console.log('REACT_APP_ENVIRONMENT', process.env, typeof process);
+  const { t } = useTranslation();
   return (
     <div className="App">
+      {/* <div>{t('Welcome to React')}</div> */}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         {/* <p>
