@@ -22,7 +22,7 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "bootstrap": "yarn install --immutable --immutable-cache --check-cache",
+    "serve": "env-cmd -f ./.env-local react-app-rewired start",
     "serve:local": "env-cmd -f ./.env-local react-app-rewired start",
     "serve:dev": "env-cmd -f ./.env.dev react-app-rewired start",
     "serve:prod": "env-cmd -f ./.env.prod react-app-rewired start",
