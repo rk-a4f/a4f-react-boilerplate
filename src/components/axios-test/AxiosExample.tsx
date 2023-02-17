@@ -1,7 +1,7 @@
 import React, { memo, useState } from 'react';
 import axios from 'axios';
 
-const AxiosTest: React.FC = () => {
+const AxiosExample: React.FC = () => {
   const [id, setId] = useState(1);
   const [todo, setTodo] = useState('');
 
@@ -23,4 +23,4 @@ const AxiosTest: React.FC = () => {
   );
 };
 
-export default memo(AxiosTest);
+export default memo(AxiosExample);
